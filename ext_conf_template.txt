@@ -1,0 +1,11 @@
+# cat=basic//3; type=options[Development,Production,Testing]; label= Context name: Select a context name in which the application will run. @todo move this feature at the Core level somehow. @see http://forge.typo3.org/issues/39441.
+context = Development
+
+# cat=basic//3; type=string; label= Development path: Insert the path to your development folder (it could be into fileadmin directory).
+developmentPath = fileadmin/Setup/Configuration/Development
+
+# cat=basic//3; type=string; label= Production path: Insert the path to your production folder (it could be into fileadmin directory).
+productionPath = fileadmin/Setup/Configuration/Production
+
+# cat=basic//3; type=string; label= Test path: Insert the path to your test folder (it could be into fileadmin directory).
+testPath = fileadmin/Setup/Configuration/Test
