@@ -12,9 +12,8 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tstemplate.php']['i
 
 \TYPO3\CMS\T3Startup\Hooks\TypoScriptTemplate::getInstance()->addStaticTemplates(array(
 	'EXT:css_styled_content/static',
-	'EXT:t3setup/Configuration/TypoScript',
+	'EXT:t3startup/Configuration/TypoScript',
 	'EXT:fluidcontent/Configuration/TypoScript',
-	'EXT:fluidcontent_bootstrap/Configuration/TypoScript',
 	'EXT:seo_basics/static',
 ));
 

@@ -108,8 +108,8 @@ class TypoScriptTemplate implements \TYPO3\CMS\Core\SingletonInterface {
 			$row = array(
 				'constants' => @is_file(($filePath . 'constants.txt')) ? \TYPO3\CMS\Core\Utility\GeneralUtility::getUrl($filePath . 'constants.txt') : '',
 				'config' => @is_file(($filePath . 'setup.txt')) ? \TYPO3\CMS\Core\Utility\GeneralUtility::getUrl($filePath . 'setup.txt') : '',
-				'title' => 'T3Setup:Configuration',
-				'uid' => 't3setupConfiguration'
+				'title' => 'T3Startup Configuration',
+				'uid' => 't3startupConfiguration'
 			);
 			$pObj->processTemplate($row, $params['idList'] . ',ext_' . $mExtKey, $params['pid'], 'ext_' . $mExtKey, $params['templateId']);
 		}

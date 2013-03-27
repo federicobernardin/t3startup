@@ -1,0 +1,3 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3startup/Configuration/TypoScript/Plugin/tx_flux.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3startup/Configuration/TypoScript/Plugin/tx_fluidcontent.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3startup/Configuration/TypoScript/Page/page.ts">

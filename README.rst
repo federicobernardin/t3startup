@@ -3,7 +3,7 @@ T3Startup
 
 Overview
 --------
-A great problem when configuring TYPO3 is customization of content element with rows of typoscript or the customization of TYPO3 backend.
+A great problem when configuring TYPO3 is the customization of content element with rows of typoscript or the customization of TYPO3 backend.
 With TYPO3 4.5 we have the grid layout, but thanks to Claude Due we have flux and its grid helpers. With those helpers we can customize TYPO3 Backend in a very easy way using Fluid and fluidpages exetnsion. The other limit is the standard content elements, always thanks to Claude we have Custom content element with Fluid and fluidcontent.
 
 This extension is an aggregate of feature, it requires flux, fluidcontent and fluidpages, moves your configuration automatically in your preferred folder, configuring destination into extension configuration. You can add your templates to your preferred version control system.
