@@ -3,7 +3,6 @@ if (!defined('TYPO3_MODE')) {
 	die ('Access denied.');
 }
 # Include static TypoScript files from extensions using a hook.
-# @see http://blog.causal.ch/2012/05/automatically-including-static-ts-from.html
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tstemplate.php']['includeStaticTypoScriptSources'][] =
 	'EXT:' . $_EXTKEY . '/Classes/Hooks/TypoScriptTemplate.php:TYPO3\CMS\T3Startup\Hooks\TypoScriptTemplate->preprocessIncludeStaticTypoScriptSources';
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tstemplate.php']['includeStaticTypoScriptSourcesAtEnd'][] =

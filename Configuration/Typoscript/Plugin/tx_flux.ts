@@ -2,7 +2,7 @@
 # TYPOSCRIPT FOR TX_FLUIDPAGES #
 ################################
 
-
+ #include basic path for dynamic backend template
  plugin.tx_fed {
  	page.t3startup {
  		templateRootPath = fileadmin/Resources/Private/Templates/
